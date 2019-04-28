@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Vidde</title>
+
+  <!-- Links -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="../img/icon.png">
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <!-- logo -->
+    <a href="../index.html">
+      <div class="header__logo-box">
+        <img src="../img/crown.png" class="header__logo" alt="">
+      </div>
+    </a>
+    <!-- header text -->
+    <div class="header__heading-box">
+      <h1 class="header__heading">Vidde</h1>
+      <h2 class="header__heading-secondary">Ogromna oferta wolnych pokoi w hotelach na całym świecie!</h2>
+      <a href="#" class="btn btn--white btn--animated">Sprawdź teraz</a>
+    </div>
+    <!-- navigation -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <a href="#section-book" class="nav__link">
+          <li class="nav__item">Zamów</li>
+        </a>
+        <a href="cennik.html" class="nav__link">
+          <li class="nav__item">Cennik</li>
+        </a>
+        <a href="hotele.html" class="nav__link">
+          <li class="nav__item">Hotele</li>
+        </a>
+        <a href="../index.html#about-scroll" class="nav__link">
+          <li class="nav__item">O nas</li>
+        </a>
+        <a href="faq.html" class="nav__link">
+          <li class="nav__item">FAQ</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- FLASH BANER -->
+  <section class="section-faq">
+    <div class="question-box">
+      <h1 class="question-box__heading">
+        Czy mogę anulować swoją rezerwację?
+      </h1>
+      <p class="question-box__answer">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <hr>
+    <div class="question-box">
+      <h1 class="question-box__heading">
+        Co się stanie, jeżeli w hotelu nie będzie jednak miejsca?
+      </h1>
+      <p class="question-box__answer">
+        Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <hr>
+    <div class="question-box">
+      <h1 class="question-box__heading">
+        Jaki jest czas oczekiwania na zwrot?
+      </h1>
+      <p class="question-box__answer">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <hr>
+    <div class="question-box">
+      <h1 class="question-box__heading">
+        Czy podajecie najtańszą opcję rezerwacji?
+      </h1>
+      <p class="question-box__answer">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consectetur adipisicing elit, sed do eiusmod tempor.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-book" id="section-book">
+    <form action="" class="form">
+      <h3 class="form__heading u-margin-bottom-medium">
+        Stwórz konto
+      </h3>
+      <div class="form__group">
+        <input type="email" class="form__input" name="" value="" id="email" placeholder="E-mail">
+        <label for="email" class="form__label">E-mail</label>
+      </div>
+
+      <div class="form__group">
+        <input type="password" class="form__input" name="" value="" id="pass" placeholder="Hasło">
+        <label for="pass" class="form__label">Hasło</label>
+      </div>
+
+      <a href="#" class="btn btn--blue">Dalej &rarr;</a>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__logo-container">
+      <img src="../img/crown.png" alt="" class="footer__logo">
+    </div>
+    <div class="footer__content">
+      <ul class="footer__list">
+        <li class="footer__list-item">Zamów</li>
+        <li class="footer__list-item">Hotele</li>
+        <li class="footer__list-item">Cennik</li>
+        <li class="footer__list-item">O nas</li>
+        <li class="footer__list-item">FAQ</li>
+      </ul>
+      <p class="footer__text">
+        <a href="#" class="footer__link">VIDDE</a>
+        jest profesjonalną aplikacją web'ową, która dołoży wszelkich starań, aby dobrać dla klienta hotel odpowiadający jego wymaganiom. Mamy 10-letni bagaż doświadczenia, oraz specjalnie sprawdzone oferty hoteli. Gwarantujemy naszym klientom udaną
+        podróż.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1200,
+      delay: 300,
+      once: true,
+      disable: 'mobile'
+    });
+  </script>
+</body>
+
+</html>
